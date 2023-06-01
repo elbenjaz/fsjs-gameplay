@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay</title>
+
+    <link rel="shortcut icon" href="assets/img/mushroom.svg">
+
+    <script src="https://kit.fontawesome.com/07ed0338da.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <h1>
+                <img id="logo" src="assets/img/mushroom.svg" alt="logo">
+                <p>Gameplay</p>
+                <small id="logo-slogan">Press start</small>
+            </h1>
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#games">
+                        <p><i class="fa-solid fa-gamepad fa-lg fa-fw"></i> <span>Games</span></p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music">
+                        <p><i class="fas fa-music fa-lg fa-fw"></i> <span>Music</span></p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#settings">
+                        <p><i class="fa-solid fa-gear fa-lg fa-fw"></i> <span>Settings</span></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="search">
+        <div>
+            <label>
+                <p id="menu-info">
+                    <span>
+                        <i class="fa-solid fa-mobile-screen fa-lg" data-display="mobile"></i>
+                        <i class="fa-solid fa-tablet-screen-button fa-lg" data-display="tablet"></i>
+                        <i class="fa-solid fa-desktop fa-lg" data-display="desktop"></i>
+                    </span>
+
+                    <span>
+                        <a href="#">
+                            <small>elbenja</small> <i class="fa-solid fa-power-off fa-lg"></i>
+                        </a>
+                    </span>
+                </p>
+            </label>
+
+            <div class="input-group">
+                <input type="text">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>        
+
+        <div>
+            <label><p><small>Sort by</small></p></label>
+            <select>
+                <option value="name_asc">Name A-Z</option>
+                <option value="play_desc">Most played</option>
+            </select>
+        </div>
+    </aside>
+
+    <section class="items">
+        
+        <div class="items-section" id="games">
+            <h2><p><i class="fa-solid fa-gamepad fa-lg"></i> Games</p> <span>8</span></h2>
+
+            <div class="items-grid">
+
+                <a href="games/player-1.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Donkey%20Kong%20Country%20%28USA%29.png">
+                        <p>Donkey Kong Country</p>
+                    </div>
+                </a>
+
+                <a href="games/player-2.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Doom%20%28USA%29.png">
+                        <p>Doom</p>
+                    </div>
+                </a>
+
+                <a href="games/player-3.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/International%20Superstar%20Soccer%20Deluxe%20%28USA%29.png">
+                        <p>International Superstar Soccer Deluxe</p>
+                    </div>
+                </a>
+
+                <a href="games/player-4.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Rock%20N%27%20Roll%20Racing%20%28USA%29.png">
+                        <p>Rock N' Roll Racing</p>
+                    </div>
+                </a>
+
+                <a href="games/player-5.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Side%20Pocket%20%28USA%29.png">
+                        <p>Side Pocket</p>
+                    </div>
+                </a>
+                
+                <a href="games/player-6.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20Kart%20%28USA%29.png">
+                        <p>Super Mario Kart</p>
+                    </div>
+                </a>
+                
+                <a href="games/player-7.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Super%20Mario%20World%20%28USA%29.png">
+                        <p>Super Mario World</p>
+                    </div>
+                </a>
+                
+                <a href="games/player-8.html">
+                    <div class="item">
+                        <img src="http://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Titles/Ultimate%20Mortal%20Kombat%203%20%28USA%29.png">
+                        <p>Ultimate Mortal Kombat 3</p>
+                    </div>
+                </a>
+                
+            </div>
+
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+
+        <div class="items-section" id="music">
+            <h2><p><i class="fas fa-music fa-lg"></i> Music</p> <span>8</span></h2>
+
+            <div class="items-grid">
+
+                <a href="music/player-1.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/Amq-qlqbjYA/maxresdefault.jpg">
+                        <p>BLACKPINK(블랙 핑크) - As if it's your last</p>
+                    </div>
+                </a>
+
+                <a href="music/player-2.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/4PnFuEbzxos/maxresdefault.jpg">
+                        <p>FIFTY FIFTY(피프티피프티) - Lovin' Me</p>
+                    </div>
+                </a>
+
+                <a href="music/player-3.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/fE2h3lGlOsk/mqdefault.jpg">
+                        <p>ITZY(있지) - Wannabe</p>
+                    </div>
+                </a>
+
+                <a href="music/player-4.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/6ZUIwj3FgUY/maxresdefault.jpg">
+                        <p>IVE(아이브) - I AM</p>
+                    </div>
+                </a>
+
+                <a href="music/player-5.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/tIWpr3tHzII/maxresdefault.jpg">
+                        <p>LOONA(이달의 소녀) - Love4eva</p>
+                    </div>
+                </a>
+
+                <a href="music/player-6.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/juQvizeZJFM/maxresdefault.jpg">
+                        <p>STAYC(스테이씨) - Beautiful Monster</p>
+                    </div>
+                </a>
+
+                <a href="music/player-7.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/kOHB85vDuow/maxresdefault.jpg">
+                        <p>TWICE(트와이스) - Fancy</p>
+                    </div>
+                </a>
+
+                <a href="music/player-8.html">
+                    <div class="item">
+                        <img src="https://i.ytimg.com/vi/g5B6zCSMrcc/maxresdefault.jpg">
+                        <p>WOO!AH!(우아!) - Catch the stars</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>    
+        </div>
+
+        <div class="items-section" id="settings">
+            <h2><p><i class="fa-solid fa-gear fa-lg"></i> Settings</p></h2>
+            
+            <div class="items-grid">
+                <a href="#">
+                    <div class="item">
+                        <div><i class="fa-solid fa-hard-drive fa-lg fa-fw"></i> Storage</div>
+                        <p><small>512 MB / 2 TB available</small></p>
+                    </div>
+                </a>   
+                
+                <a href="#">
+                    <div class="item">
+                        <div><i class="fa-solid fa-wrench fa-lg fa-fw"></i> System settings</div>
+                        <p><small>Language</small></p>
+                    </div>
+                </a>                
+
+                <a href="#">
+                    <div class="item">
+                        <div><i class="fa-solid fa-palette fa-lg fa-fw"></i> Change theme</div>
+                        <p><small>Classic</small></p>
+                    </div>
+                </a>                
+
+                <a href="#">
+                    <div class="item">
+                        <div><i class="fa-solid fa-power-off fa-lg fa-fw"></i> Logout</div>
+                        <p><small>elBenja</small></p>
+                    </div>
+                </a>                
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://twitter.com/nintendo" target="_blank"><i class="fa-brands fa-twitter fa-lg fa-fw"></i></a>
+            <a href="https://www.instagram.com/nintendoamerica" target="_blank"><i class="fa-brands fa-instagram fa-lg fa-fw"></i></a>
+        </div>
+
+        <p>Gameplay</p>
+        <small>v23.6</small>
+    </footer>
+</body>
+</html>
